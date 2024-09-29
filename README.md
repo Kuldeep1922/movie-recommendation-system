@@ -73,6 +73,8 @@ The project is deployed on Render. You can access the live version of the app he
 
 [Movie Recommendation System on Render](https://movie-recommendation-system-rler.onrender.com/)
 
+---
+
 ## API Used 🌐
 
 This project uses [The Movie Database (TMDb) API](https://www.themoviedb.org/) to fetch movie details and posters.

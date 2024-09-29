@@ -28,7 +28,7 @@ This is a Movie Recommendation System built with Streamlit, which suggests movie
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/movie-recommendation-system.git
+    git clone https://github.com/Kuldeep-Sahoo/movie-recommendation-system.git/
     ```
 
 2. **Navigate to the project directory:**
@@ -72,17 +72,6 @@ This is a Movie Recommendation System built with Streamlit, which suggests movie
 The project is deployed on Render. You can access the live version of the app here:
 
 [Movie Recommendation System on Render](https://movie-recommendation-system-rler.onrender.com/)
-
-### Deployment Steps:
-
-- Use Render's **Python** service to deploy the app.
-- Set the `Start Command` in Render to:
-
-    ```bash
-    streamlit run app.py
-    ```
-
----
 
 ## API Used 🌐
 

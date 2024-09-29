@@ -123,7 +123,7 @@ if st.button("Recommend"):
     #     st.image(posters[4])
 
     # Display recommendations
-    cols = st.columns(5)  # Create 5 columns
+    # cols = st.columns(5)  # Create 5 columns
 
     # for i in range(20):  # Loop through the first 20 recommended movies
     #     with cols[i % 5]:  # Cycle through the columns
@@ -134,14 +134,17 @@ if st.button("Recommend"):
     #             unsafe_allow_html=True,
     #         )
     # Display recommendations in columns
+    # Display recommendations in columns
     cols = st.columns(5)
     for i in range(20):  # Loop through the first 20 recommended movies
         with cols[i % 5]:  # Cycle through the columns
-            # Create a clickable link for the poster
             st.markdown(
-                f"[![{names[i]}]({posters[i]})](https://www.google.com/search?q={names[i]})",
+                f'<a href="https://www.google.com/search?q={names[i]}" target="_blank">'
+                f'<img src="{posters[i]}" alt="{names[i]}" style="width:100%;"/>'
+                f"</a>",
                 unsafe_allow_html=True,
             )
+            st.text(names[i])
 
 
 # Footer

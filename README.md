@@ -1,5 +1,5 @@
 # Movie Recommendation System 🎬
-
+![App Screenshot](https://github.com/Kuldeep-Sahoo/movie-recommendation-system/blob/main/image.png?raw=true)
 This is a Movie Recommendation System built with Streamlit, which suggests movies based on a selected movie using content-based filtering. The app utilizes The Movie Database (TMDb) API to fetch movie posters and display them with clickable links that perform a Google search for the movie.
 
 **Deployed at**: [Movie Recommendation System](https://movie-recommendation-system-rler.onrender.com/)

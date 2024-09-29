@@ -129,8 +129,10 @@ if st.button("Recommend"):
         with cols[i % 5]:  # Cycle through the columns
             st.text(names[i])  # Display the movie name
             st.image(posters[i])  # Display the movie poster
-    st.markdown(
-        """
+
+# Footer
+st.markdown(
+    """
     <style>
         .footer {
             position: fixed;
@@ -145,6 +147,6 @@ if st.button("Recommend"):
     <div class="footer">
         &copy; 2024 Kuldeep Sahoo. All rights reserved.
     </div>
-    """,
-        unsafe_allow_html=True,
-    )
+""",
+    unsafe_allow_html=True,
+)

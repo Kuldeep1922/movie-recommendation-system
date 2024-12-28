@@ -136,7 +136,7 @@ if st.button("Recommend"):
     # Display recommendations in columns
     # Display recommendations in columns
     cols = st.columns(5)
-    for i in range(20):  # Loop through the first 20 recommended movies
+    for i in range(150):  # Loop through the first 20 recommended movies
         with cols[i % 5]:  # Cycle through the columns
             st.markdown(
                 f'<a href="https://www.google.com/search?q={names[i]}" target="_blank">'
